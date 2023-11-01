@@ -1,3 +1,15 @@
+/**
+ * @file LoudnessBasePico.hpp
+ * @author Holger Willenborg (holger@willenb.org)
+ * @brief Implementation of LoudnessBase for Pico
+ * 
+ * @version 0.5
+ * @date 2023-11-01
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 #ifndef LoudnessBasePico_hpp
 #define LoudnessBasePico_hpp
 

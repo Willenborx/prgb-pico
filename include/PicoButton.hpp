@@ -3,8 +3,8 @@
  * @author Holger Willenborg (holger@willenb.org)
  * @brief Derive a class from this class and call @link PicoButtons::register_picobutton_interrupt @endlink to initiate the interrupt. The derived class
  *          overwrites on_press() and on_release() member functions which are called automatically
- * @version 0.1
- * @date 2023-05-13
+ * @version 0.5
+ * @date 2023-11-01
  * 
  * @copyright Copyright (c) 2023
  * 
