@@ -2,8 +2,8 @@
  * @file W2812LightArray.cpp
  * @author Holger Willenborg (holger@willenb.org)
  * @brief Implementation of an WS2812B LED strip
- * @version 0.2
- * @date 2023-03-10
+ * @version 0.5
+ * @date 2023-11-01
  * 
  * @copyright Copyright (c) 2023
  * 

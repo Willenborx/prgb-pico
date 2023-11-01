@@ -1,6 +1,14 @@
-/** 
- * \todo Descibr PicoTimeBase
-*/
+/**
+ * @file TImeBasePico.hpp
+ * @author Holger Willenborg (holger@willenb.org)
+ * @brief Implementation of the TimeBase for the Raspberry Pi Pixo
+ * @version 0.5
+ * @date 2023-11-01
+ * 
+ * @copyright Copyright (c) 2023
+ * 
+ */
+
 
 #ifndef PRGB_TIMEBASEPICO_HPP
 #define PRGB_TIMEBASEPICO_HPP

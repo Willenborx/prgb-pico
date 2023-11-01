@@ -2,8 +2,8 @@
  * @file Geometry_2xBTF_WS2812B_8x32_ECO.hpp
  * @author Holger Willenborg (holger@willenb.org)
  * @brief This implements the geometry of 2 cascaded BTF WS2812B_8x32_ECO LED arrays
- * @version 0.2
- * @date 2023-06-07
+ * @version 0.5
+ * @date 2023-11-01
  * 
  * @copyright Copyright (c) 2023
  * 
