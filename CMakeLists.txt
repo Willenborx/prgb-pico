@@ -21,7 +21,6 @@ target_include_directories(${PROJECT_NAME}
         include
     #PRIVATE
         ../prgb/include
-        ../prgbld/include
         
 )
 

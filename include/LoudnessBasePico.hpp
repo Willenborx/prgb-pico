@@ -22,7 +22,7 @@
 
 namespace pico {
 
-    using namespace ldbase;
+    using namespace prgb;
 
     /**
      * @brief This class implements the loudness source to be one of the ADCs (0..2). 
