@@ -9,7 +9,7 @@ add_definitions(-DCMAKE_EXPORT_COMPILE_COMMANDS=ON)
 
 pico_sdk_init()
 
-project(pico)
+project(prgb-pico)
 
 add_library(${PROJECT_NAME} INTERFACE)
 

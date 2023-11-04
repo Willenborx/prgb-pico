@@ -35,6 +35,6 @@ target_link_libraries(${PROJECT_NAME}
     PRIVATE 
         pico_stdlib
 		hardware_pio
-        pico)
+        prgb-pico)
 #endif()
 
