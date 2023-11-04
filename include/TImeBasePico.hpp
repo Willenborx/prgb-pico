@@ -14,6 +14,8 @@
 #define PRGB_TIMEBASEPICO_HPP
 
 #include <TimeBase.hpp>
+#include <hardware/timer.h>
+#include <pico/time.h>
 #include <cstdint>
 
 namespace pico {
@@ -27,6 +29,7 @@ namespace pico {
             TimeBasePico() { reset(); };
             void reset() { start = time_us_64() / 1000;};
             TimeMS get_deltatime_ms() {return (time_us_64()/1000)- start; };
+            void wait_ms(TimeMS milliseconds) { sleep_ms(milliseconds); }
     } ;
 };
 
