@@ -4,3 +4,6 @@
 [submodule "external/FastLED"]
 	path = external/FastLED
 	url = https://github.com/FastLED/FastLED
+[submodule "FastLED"]
+	path = FastLED
+	url = https://github.com/FastLED/FastLED
