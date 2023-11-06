@@ -15,10 +15,9 @@ add_library(WS2812B STATIC
 target_include_directories(${PROJECT_NAME}
 	PUBLIC
 		include
-		#../include
 	PRIVATE
 		src
-		#../../prgb/include
+		external/FastLED/src		
 )
 
 target_link_libraries(${PROJECT_NAME} 
