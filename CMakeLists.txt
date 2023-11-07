@@ -30,7 +30,8 @@ add_subdirectory(WS2812B)
 
 target_include_directories(${PROJECT_NAME}
     INTERFACE
-        include        
+        include
+        external/FastLED/src
 )
 
 target_link_libraries(${PROJECT_NAME} INTERFACE
