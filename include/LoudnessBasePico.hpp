@@ -35,10 +35,8 @@ namespace pico {
             // \todo ugly: factory with default parameter: First call must have the correct adc_num, this also limits
             // the system to use only one loudness base at a time.
             static LoudnessBasePico *get_instance(uint8_t adc_num = 0) {
-                if (loudness_base_pico_instance == nullptr) {
-                    loudness_base_pico_instance = new LoudnessBasePico(adc_num);
-                } 
-                return loudness_base_pico_instance;
+                return ((loudness_base_pico_instance == nullptr) ? new LoudnessBasePico(adc_num) : loudness_base_pico_instance); 
+                
             }
 
             LoudnessBasePico(uint8_t adc_num) : LoudnessBase(), adc_num(adc_num), adc_pin(adc_num+26)  {
