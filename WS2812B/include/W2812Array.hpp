@@ -48,7 +48,7 @@ class W2812LightArray : public LightArray {
         W2812LightArray(uint8_t outpin, uint8_t brightness, prgb::Geometry& geometry, TimeBase& tb, bool usegamma = true);
 
         //! WS2812B uses GRB byte order so every pixel color must be converted from RGB, in addition the Gamma correction will be done here
-        ColorValue inline convertPixel(ColorValue pixel);
+        ColorValue inline convert_pixel(ColorValue pixel);
         
         //! Set to a value from 0-100 to adjust allover brightness. May result in darkness for low values (see Gamma correction)
         void set_brightness(uint8_t newbrightness);

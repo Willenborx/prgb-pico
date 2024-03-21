@@ -39,7 +39,7 @@ W2812LightArray::W2812LightArray(uint8_t newoutpin, uint8_t brightness, prgb::Ge
 }
 
 //! RGB needs to be converted to match the WS2812 order and to get some Gamma corection to make the colours looking more natural
-inline ColorValue W2812LightArray::convertPixel(ColorValue pixel) {
+inline ColorValue W2812LightArray::convert_pixel(ColorValue pixel) {
 
     uint ur = (uint)(R(pixel));
     uint ug = (uint)(G(pixel));
@@ -63,7 +63,7 @@ void W2812LightArray::show() {
     int dspbuffer = (currentbuffer == 0) ? 1 : 0;
     
     for (int i=0; i < this->length; i++) {
-        pio_sm_put_blocking(this->pio, statemachine, (uint32_t) convertPixel(this->pixels[dspbuffer][i]));
+        pio_sm_put_blocking(this->pio, statemachine, (uint32_t) convert_pixel(this->pixels[dspbuffer][i]));
     }
     
 }
