@@ -44,6 +44,7 @@ inline ColorValue W2812LightArray::convert_pixel(ColorValue pixel) {
     uint ur = (uint)(R(pixel));
     uint ug = (uint)(G(pixel));
     uint ub = (uint)(B(pixel));
+    // uint ua = (uint)(A(pixel));
 
     uint r =  static_cast<uint>(ur * brightness/100);
     uint g =  static_cast<uint>(ug * brightness/100);
